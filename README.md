@@ -57,15 +57,13 @@ conda upgrade conda
 conda update --all
 ```
 
-# Note
+# Environment details
 
-Always update your conda environment before and after any installs, to make sure everything is up to date:
 ```
-conda update --all
+conda list
 ```
-
-#This is the 'conda list' output from my environment
-
+Output:
+```
 bleach                    1.5.0                    py36_0  
 cycler                    0.10.0                   py36_0  
 dbus                      1.10.10                       0  
@@ -142,4 +140,5 @@ widgetsnbextension        2.0.0                    py36_0
 xz                        5.2.2                         1  
 zeromq                    4.1.5                         0  
 zlib                      1.2.8                         3
+```
 
