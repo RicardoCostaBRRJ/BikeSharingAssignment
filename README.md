@@ -57,6 +57,11 @@ conda upgrade conda
 conda update --all
 ```
 
+#Step 6: Open the project notebook
+```
+jupyter notebook bike-sharing-neural-network-udacity-assignment.ipynb
+```
+
 # Environment details
 
 ```
