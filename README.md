@@ -51,6 +51,11 @@ source activate dlnd
 ```
 conda install numpy matplotlib pandas jupyter notebook
 ```
+Make sure everything is up to date
+```
+conda upgrade conda
+conda update --all
+```
 
 # Note
 
