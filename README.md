@@ -21,7 +21,12 @@ Codename:	yakkety
 
 #Step 1: Anaconda
 
-You can download and install Anaconda from https://www.continuum.io/downloads. There will be easy instructions to follow. After the install, run 'conda upgrade conda' and 'conda update --all' to make sure it's up to date.
+You can download and install Anaconda from https://www.continuum.io/downloads. There will be easy instructions to follow. After the install, run 
+```
+conda upgrade conda
+conda update --all
+```
+to make sure it's up to date.
 
 #Step 2: Clone this github repo
 ```
