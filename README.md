@@ -1,4 +1,4 @@
-# Bike-Sharing-Neural-Network-Udacity-Assignment
+# Bike Sharing Neural Network: Udacity Deep Learning Course Assignment
 
 In this project, you'll build your first neural network and use it to predict daily bike rental ridership.
 
