@@ -4,42 +4,58 @@ In this project, you'll build your first neural network and use it to predict da
 
 This is the environment I used:
 
-#Linux
+# Linux
+
 Distributor ID:	Ubuntu
 Description:	Ubuntu 16.10
 Release:	16.10
 Codename:	yakkety
 
-#Packages
+# Packages
+
 anaconda Command line client (version 1.6.3)
 conda 4.3.21
 Python 3.6.1 :: Anaconda custom (64-bit)
 
-#Setup
+# Setup
 
-#Step 1: Anaconda
+# Step 1: Anaconda
+
 You can download and install Anaconda from https://www.continuum.io/downloads. There will be easy instructions to follow. After the install, run 'conda upgrade conda' and 'conda update --all' to make sure it's up to date.
 
-#Step 2: Clone this github repo
+# Step 2: Clone this github repo
+```
 git clone https://github.com/udacity/BikeSharingAssignment.git
+```
+Then 
+```
+cd BikeSharingAssignment/
+```
 
-Then cd into project folder '/BikeSharingAssignment'
-
-#Step 3: Setup conda environment
+# Step 3: Setup conda environment
+```
 conda -create name dlnd python=3.6
+```
 
-#Step 4: Activate conda environment
+# Step 4: Activate conda environment
+```
 source activate dlnd
+```
 
-#Step 5: Install packages
+# Step 5: Install packages
+```
 conda install numpy matplotlib pandas jupyter notebook
+```
 
-#Note
+# Note
+
 Always update your conda environment before and after any installs, to make sure everything is up to date:
-
+```
 conda update --all
+```
 
-#This is the 'conda list' output from my environment
+# This is the 'conda list' output from my environment
+
 bleach                    1.5.0                    py36_0  
 cycler                    0.10.0                   py36_0  
 dbus                      1.10.10                       0  
